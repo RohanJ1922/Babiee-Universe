@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100e2c">
+<title>The Universe Is Yours, Babieee 🎀</title>
+<style>
+:root{--ink:#fff8ff;--muted:#d7c9ef;--pink:#ffbfe6;--lilac:#c6a4ff}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:Georgia,'Times New Roman',serif;background:radial-gradient(ellipse at 50% 30%,#30205f 0%,#100e2c 48%,#03040d 100%);min-height:100vh;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.65;background-image:radial-gradient(2px 2px at 12% 17%,#fff 55%,transparent 60%),radial-gradient(1px 1px at 82% 22%,#fff 55%,transparent 60%),radial-gradient(2px 2px at 70% 76%,#ffe6fa 55%,transparent 60%),radial-gradient(1px 1px at 29% 64%,#fff 55%,transparent 60%),radial-gradient(1px 1px at 91% 52%,#fff 55%,transparent 60%),radial-gradient(2px 2px at 43% 87%,#fff 55%,transparent 60%);background-size:300px 250px}
+main{position:relative;max-width:760px;margin:auto;padding:28px 16px 36px}
+.eyebrow{font:10px Arial,sans-serif;letter-spacing:4px;color:#d5b9ff;text-align:center}
+h1{font-size:clamp(28px,6vw,43px);font-weight:normal;font-style:italic;text-align:center;margin:13px 0 8px;text-shadow:0 0 22px #cdaaff66}
+.subtitle{text-align:center;color:var(--muted);font-size:15px;margin-bottom:10px}
+.intro{text-align:center;color:#e2d9f2;font-size:14px;line-height:1.7;max-width:540px;margin:0 auto 4px}
+.space{height:355px;max-width:540px;margin:0 auto;position:relative;overflow:hidden}
+.core{position:absolute;width:210px;height:210px;border-radius:50%;left:50%;top:48%;transform:translate(-50%,-50%);background:radial-gradient(circle,#f9c9ff 0%,#bb8bff 4%,#7042d0 16%,#2a1a6a 43%,transparent 70%);filter:drop-shadow(0 0 28px #ac83ff55)}
+.orbit{position:absolute;left:50%;top:48%;border:1px solid #d9b6ff77;border-radius:50%;transform:translate(-50%,-50%) rotate(-25deg)}
+.o1{width:280px;height:92px}.o2{width:330px;height:125px;transform:translate(-50%,-50%) rotate(28deg)}
+.planet{position:absolute;border:1px solid #ffffff55;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;cursor:pointer;box-shadow:inset -9px -6px 13px #0008,0 0 24px #c5a5ff35;transition:transform .2s;font-size:23px}
+.planet:hover,.planet:focus-visible{transform:scale(1.09);outline:2px solid #ffe4ff}
+.planet small{position:absolute;top:calc(100% + 8px);white-space:nowrap;font:12px Arial,sans-serif;letter-spacing:.5px;color:#f1e5ff}
+.p-memory{width:60px;height:60px;left:12%;top:17%;background:radial-gradient(circle at 30% 25%,#ffddc4,#b67bc4 35%,#42235d 78%)}
+.p-wish{width:52px;height:52px;left:72%;top:12%;background:radial-gradient(circle at 30% 25%,#fff1bb,#c89b70 42%,#67416b 80%)}
+.p-love{width:76px;height:76px;left:66%;top:57%;background:radial-gradient(circle at 30% 25%,#ffd7ec,#d16baf 34%,#632b86 80%)}
+.p-forever{width:48px;height:48px;left:23%;top:65%;background:radial-gradient(circle at 30% 25%,#d5f5ff,#7a9ee7 38%,#342d74 80%)}
+.star{position:absolute;border:0;background:#fff8d9;border-radius:50%;width:5px;height:5px;box-shadow:0 0 10px #fff;cursor:pointer;padding:0}
+.s1{left:37%;top:14%}.s2{left:86%;top:39%;width:7px;height:7px}.s3{left:48%;top:82%;width:6px;height:6px}.s4{left:8%;top:45%;width:4px;height:4px}
+.hint{text-align:center;font:12px Arial,sans-serif;color:#d9c9f2;margin:0 0 14px}
+.buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:9px}
+.pill{border:1px solid #ffffff40;border-radius:999px;padding:10px 14px;font:12px Arial,sans-serif;background:#ffffff0d;color:white;cursor:pointer}
+.pill:hover,.pill:focus-visible{background:#ffffff25;outline:1px solid #e9d8ff}
+.panel{margin:22px auto 0;max-width:620px;border-radius:16px;padding:22px 18px;background:#ffffff0b;border:1px solid #ffffff25;min-height:170px;box-shadow:0 10px 40px #0002}
+.panel h2{text-align:center;font-size:23px;font-weight:normal;color:#f3d5ff;margin:0 0 10px}
+.panel .desc{text-align:center;font-size:14px;line-height:1.65;color:#e2d9f2;margin:0 0 17px}
+label{display:block;color:#f8eaff;font:12px Arial,sans-serif;letter-spacing:.4px;margin-bottom:8px}
+textarea{display:block;width:100%;min-height:100px;resize:vertical;border:1px solid #b9a0e0;border-radius:12px;background:#100d27;color:white;padding:12px;font:15px Arial,sans-serif;line-height:1.5;outline:none}
+textarea:focus{border-color:#ffd1f0;box-shadow:0 0 0 3px #e5b6ff20}
+textarea::placeholder{color:#b8a9d0}
+.sendrow{display:flex;justify-content:center;margin-top:12px}
+.send{border:1px solid #ffffff55;border-radius:999px;padding:11px 18px;background:linear-gradient(110deg,#8b5cc5,#bd6eae);color:white;font:13px Arial,sans-serif;cursor:pointer}
+.status{text-align:center;color:#e8d9ff;font:12px Arial,sans-serif;min-height:18px;margin-top:10px}
+.footer{text-align:center;font:11px Arial,sans-serif;color:#aa9bc9;margin-top:18px}
+.smallprint{text-align:center;font:11px Arial,sans-serif;line-height:1.5;color:#a99bc5;max-width:540px;margin:14px auto 0}
+@media(max-width:420px){.space{height:330px}.core{width:185px;height:185px}.o1{width:245px}.o2{width:290px}.p-love{left:63%;top:58%}.p-memory{left:8%}.panel{padding:18px 14px}}
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">A LITTLE GALAXY, JUST FOR YOU</div>
+  <h1>The Universe Is Yours</h1>
+  <div class="subtitle">For Babieee!! 🎀💗</div>
+  <p class="intro">I made you a tiny universe, but this time, I want to hear what’s inside yours. Tap each planet and leave me your answer. Every answer will be sent to me. ✨</p>
+  <section class="space" aria-label="Interactive galaxy">
+    <div class="core"></div><div class="orbit o1"></div><div class="orbit o2"></div>
+    <button class="planet p-memory" data-question="memory" aria-label="Memory planet">✦<small>Memory</small></button>
+    <button class="planet p-wish" data-question="wish" aria-label="Wish planet">✧<small>Your wish</small></button>
+    <button class="planet p-love" data-question="love" aria-label="Love planet">♡<small>Love</small></button>
+    <button class="planet p-forever" data-question="forever" aria-label="Forever star">∞<small>Forever</small></button>
+    <button class="star s1" data-question="memory" aria-label="Open memory"></button>
+    <button class="star s2" data-question="wish" aria-label="Open wish"></button>
+    <button class="star s3" data-question="forever" aria-label="Open forever question"></button>
+    <button class="star s4" data-question="love" aria-label="Open love question"></button>
+  </section>
+  <p class="hint">Choose a planet. Think about your answer. Then send it to me. 💌</p>
+  <nav class="buttons" aria-label="Choose a question">
+    <button class="pill" data-question="memory">🪐 One memory</button>
+    <button class="pill" data-question="wish">🌙 One wish</button>
+    <button class="pill" data-question="love">💗 One moment</button>
+    <button class="pill" data-question="forever">✨ One last star</button>
+  </nav>
+  <section class="panel" aria-live="polite">
+    <h2 id="question-title">Pick your first little world ✨</h2>
+    <p class="desc" id="question-desc">There are four questions hidden in this galaxy. Choose any one to begin.</p>
+    <form id="answer-form" method="post" target="submit-frame" action="https://script.google.com/macros/s/AKfycbybKduYGbL8l7k4aaRExVcKQOE__9PMg32KhbkcgNXL8_TkHZUjX-Utj8Ksdklr_u6_/exec">
+      <input type="hidden" name="questionKey" id="question-key">
+      <input type="hidden" name="question" id="question-text">
+      <label for="answer" id="answer-label">YOUR ANSWER</label>
+      <textarea id="answer" name="answer" maxlength="2500" placeholder="Take your time. I want to hear it in your words…" required></textarea>
+      <div class="sendrow"><button class="send" type="submit">Send this answer to me 💌</button></div>
+      <div class="status" id="status" role="status"></div>
+    </form>
+  </section>
+  <div class="smallprint">Your answers are sent privately to the Google Sheet connected by the site owner. You can answer each question separately, and come back to change or send another answer.</div>
+  <div class="footer">A universe made for you, with space for your words. 🌌</div>
+</main>
+<iframe name="submit-frame" id="submit-frame" title="Answer submission" style="display:none"></iframe>
+<script>
+const questions={
+ memory:{title:"The Memory Planet 🪐",question:"What's one memory you'd want us to have?",desc:"Imagine a moment we haven't lived yet—or a memory you'd love for us to create together."},
+ wish:{title:"The Wish Planet 🌙",question:"What's one wish you'd want me to fulfill?",desc:"It can be tiny, silly, romantic, or a dream you've been carrying for a long time."},
+ love:{title:"The Love Planet 💗",question:"What's one moment you felt I really love you?",desc:"Tell me about a moment when you felt loved by me. I want to understand what stayed with you."},
+ forever:{title:"One Last Star ✨",question:"What's one thing you'd want me to do for the rest of our lives that I wouldn't forget?",desc:"Something you want us to keep doing, protecting, or remembering for all the years ahead."}
+};
+let activeKey="";
+let waitingForSubmit=false;
+const title=document.getElementById("question-title"),desc=document.getElementById("question-desc"),keyInput=document.getElementById("question-key"),questionInput=document.getElementById("question-text"),answer=document.getElementById("answer"),status=document.getElementById("status"),form=document.getElementById("answer-form");
+document.querySelectorAll("[data-question]").forEach(el=>el.addEventListener("click",()=>{
+ const k=el.dataset.question,q=questions[k];if(!q)return;
+ activeKey=k;title.textContent=q.title;desc.textContent=q.desc;keyInput.value=k;questionInput.value=q.question;
+ answer.value="";answer.placeholder="Take your time. I want to hear it in your words…";status.textContent="";
+ document.querySelector(".panel").scrollIntoView({behavior:"smooth",block:"start"});
+}));
+form.addEventListener("submit",e=>{
+ if(!activeKey){e.preventDefault();status.textContent="Choose a planet first ✨";return}
+ if(!form.action || form.action.includes("PASTE_YOUR_WEB_APP_URL_HERE")){e.preventDefault();status.textContent="This universe needs its private answer inbox connected before answers can be sent.";return}
+ status.textContent="Sending your answer… 💌";
+ waitingForSubmit=true;
+});
+document.getElementById("submit-frame").addEventListener("load",()=>{if(waitingForSubmit){waitingForSubmit=false;status.textContent="Your answer has been sent. Thank you for sharing that with me. 💗";answer.value="";}});
+</script>
+</body>
+</html>
